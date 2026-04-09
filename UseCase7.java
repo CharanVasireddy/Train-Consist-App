@@ -28,6 +28,7 @@ class Bogie {
 }
 
 public class UseCase7 {
+<<<<<<< HEAD
     public static void main(String[] args) {
 
         // List to store bogies
@@ -51,5 +52,26 @@ public class UseCase7 {
         for (Bogie b : bogies) {
             System.out.println(b);
         }
+=======
+
+    public static void main(String[] args) {
+
+        
+        List<Bogie> bogieList = new ArrayList<>();
+
+        
+        bogieList.add(new Bogie("Sleeper", 72));
+        bogieList.add(new Bogie("AC Chair", 60));
+        bogieList.add(new Bogie("First Class", 40));
+
+        
+        System.out.println("Bogie Details:\n");
+
+        for (Bogie bogie : bogieList) {
+            System.out.println(bogie);
+        }
+
+        System.out.println("\nProgram continues...");
+>>>>>>> UseCase7
     }
 }
