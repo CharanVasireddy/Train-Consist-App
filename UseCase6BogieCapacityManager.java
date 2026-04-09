@@ -7,7 +7,6 @@ public class UseCase6BogieCapacityManager {
 
         
         HashMap<String, Integer> bogieMap = new HashMap<>();
-
       
         bogieMap.put("Sleeper", 72);
         bogieMap.put("AC Chair", 60);

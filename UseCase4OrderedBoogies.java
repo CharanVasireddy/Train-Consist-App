@@ -3,8 +3,7 @@ import java.util.LinkedList;
 public class UseCase4OrderedBoogies {
 
     public static void main(String[] args) {
-
-        // Create LinkedList for train consist
+ 
         LinkedList<String> train = new LinkedList<>();
 
         // Add bogies
