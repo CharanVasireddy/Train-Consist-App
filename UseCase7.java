@@ -1,6 +1,5 @@
 import java.util.*;
 
-// Bogie class (Custom Object)
 class Bogie {
     private String name;
     private int capacity;
