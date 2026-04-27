@@ -1,16 +1,16 @@
 import java.util.*;
 
-class Bogie {
-    String type;
-    String cargo;
-
-    public Bogie(String type, String cargo) {
-        this.type = type;
-        this.cargo = cargo;
-    }
-}
-
 public class UseCase12 {
+
+    private static class Bogie {
+        String type;
+        String cargo;
+
+        public Bogie(String type, String cargo) {
+            this.type = type;
+            this.cargo = cargo;
+        }
+    }
     public static void main(String[] args) {
 
         // Step 1: Create list of goods bogies
